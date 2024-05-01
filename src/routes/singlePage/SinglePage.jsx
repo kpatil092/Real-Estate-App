@@ -1,12 +1,12 @@
-import React from 'react'
-import "./singlePage.scss"
-import Slider from '../../components/slider/Slider'
-import Map from '../../components/map/Map'
-import { singlePostData, userData } from "../../lib/dummydata"
+import React from "react";
+import "./singlePage.scss";
+import Slider from "../../components/slider/Slider";
+import Map from "../../components/map/Map";
+import { singlePostData, userData } from "../../lib/dummydata";
 
 function SinglePage() {
   return (
-    <div className='singlePage'>
+    <div className="singlePage">
       <div className="details">
         <div className="wrapper">
           <Slider images={singlePostData.images} />
@@ -32,7 +32,6 @@ function SinglePage() {
       </div>
       <div className="features">
         <div className="wrapper">
-
           <p className="title">General</p>
           <div className="listVertical">
             <div className="feature">
@@ -116,7 +115,7 @@ function SinglePage() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default SinglePage
+export default SinglePage;
